@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F85EF1E2786E1D000D66A5A /* libiflink-imsif.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F85EF1D2786E1D000D66A5A /* libiflink-imsif.a */; };
+		2A721E022875C7A600E6EB1C /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A721E002875C76800E6EB1C /* Localization.swift */; };
+		2A721E032875C7C100E6EB1C /* CoestationIms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE86C0C6282B8646007FBDA3 /* CoestationIms.swift */; };
+		2A721E042875C7D600E6EB1C /* MicroServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4BC1922808238D00A6BC37 /* MicroServices.swift */; };
+		2A721E052875C7E500E6EB1C /* CoestationImsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE86C0C8282B8646007FBDA3 /* CoestationImsConstants.swift */; };
+		2A721E062875C7EF00E6EB1C /* CoestationDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE86C0C5282B8646007FBDA3 /* CoestationDevice.swift */; };
+		2A721E072875C7F700E6EB1C /* PrefCoestationImsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE86C0C7282B8646007FBDA3 /* PrefCoestationImsViewController.swift */; };
+		2A7FBE862872A237006131E0 /* CoestationIms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FBE852872A237006131E0 /* CoestationIms.storyboard */; };
+		DE8BB6412818CE7500DE4200 /* libiflink-stdims_coestation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C34A807E2770D3F000300E80 /* libiflink-stdims_coestation.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		DE8BB66628190C8D00DE4200 /* libiflink-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8BB66528190C8D00DE4200 /* libiflink-app.a */; };
+		DE8BB67A2819260300DE4200 /* stdims_coestation.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEFF05CD28130A5E00FCFDBA /* stdims_coestation.strings */; };
+		DE8E3E1B28179F8D00E280FA /* libiflink-ui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8E3E1A28179F8D00E280FA /* libiflink-ui.a */; };
+		DE8F36A3281959BE005FD71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8F36A2281959B3005FD71F /* Assets.xcassets */; };
+		DEC862322818626F00C4D24D /* ObjcExceptionBridging in Frameworks */ = {isa = PBXBuildFile; productRef = DEC862312818626F00C4D24D /* ObjcExceptionBridging */; };
+		DEC862342818626F00C4D24D /* XCGLogger in Frameworks */ = {isa = PBXBuildFile; productRef = DEC862332818626F00C4D24D /* XCGLogger */; };
+		DEC862362818626F00C4D24D /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = DEC862352818626F00C4D24D /* Collections */; };
+		DEC862382818626F00C4D24D /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = DEC862372818626F00C4D24D /* DequeModule */; };
+		DEC8623A2818626F00C4D24D /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = DEC862392818626F00C4D24D /* OrderedCollections */; };
+		DEC8623C2818627000C4D24D /* PriorityQueueModule in Frameworks */ = {isa = PBXBuildFile; productRef = DEC8623B2818627000C4D24D /* PriorityQueueModule */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F4BC1922808238D00A6BC37 /* MicroServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroServices.swift; sourceTree = "<group>"; };
+		0F85EF1D2786E1D000D66A5A /* libiflink-imsif.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libiflink-imsif.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A721DFF2875C4D000E6EB1C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/stdims_coestation.strings"; sourceTree = "<group>"; };
+		2A721E002875C76800E6EB1C /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		2A7FBE852872A237006131E0 /* CoestationIms.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CoestationIms.storyboard; sourceTree = "<group>"; };
+		C34A807E2770D3F000300E80 /* libiflink-stdims_coestation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiflink-stdims_coestation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE86C0C5282B8646007FBDA3 /* CoestationDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoestationDevice.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		DE86C0C6282B8646007FBDA3 /* CoestationIms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoestationIms.swift; sourceTree = "<group>"; };
+		DE86C0C7282B8646007FBDA3 /* PrefCoestationImsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefCoestationImsViewController.swift; sourceTree = "<group>"; };
+		DE86C0C8282B8646007FBDA3 /* CoestationImsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoestationImsConstants.swift; sourceTree = "<group>"; };
+		DE8BB66528190C8D00DE4200 /* libiflink-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libiflink-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8E3E1A28179F8D00E280FA /* libiflink-ui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libiflink-ui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8F36A2281959B3005FD71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE93B5E3283C8F390000D10A /* stdims_coestation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "stdims_coestation-Info.plist"; sourceTree = "<group>"; };
+		DEC8624D2818666300C4D24D /* stdims_coestation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stdims_coestation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDE50B0282F684C005595E4 /* libiflink-common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libiflink-common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFF05CE28130A5E00FCFDBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/stdims_coestation.strings; sourceTree = "<group>"; };
+		DEFF05D428130A8600FCFDBA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/stdims_coestation.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34A807B2770D3F000300E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8BB66628190C8D00DE4200 /* libiflink-app.a in Frameworks */,
+				DEC862362818626F00C4D24D /* Collections in Frameworks */,
+				DEC862322818626F00C4D24D /* ObjcExceptionBridging in Frameworks */,
+				DEC862382818626F00C4D24D /* DequeModule in Frameworks */,
+				DEC8623C2818627000C4D24D /* PriorityQueueModule in Frameworks */,
+				DE8E3E1B28179F8D00E280FA /* libiflink-ui.a in Frameworks */,
+				0F85EF1E2786E1D000D66A5A /* libiflink-imsif.a in Frameworks */,
+				DEC8623A2818626F00C4D24D /* OrderedCollections in Frameworks */,
+				DEC862342818626F00C4D24D /* XCGLogger in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC8624A2818666300C4D24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8BB6412818CE7500DE4200 /* libiflink-stdims_coestation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C34A80752770D3F000300E80 = {
+			isa = PBXGroup;
+			children = (
+				2A721E002875C76800E6EB1C /* Localization.swift */,
+				DE93B5E3283C8F390000D10A /* stdims_coestation-Info.plist */,
+				DEFF058F281306DF00FCFDBA /* Resources */,
+				DE94DBCE28068A9700FE7824 /* IMS */,
+				DE8F36A2281959B3005FD71F /* Assets.xcassets */,
+				0F4BC1922808238D00A6BC37 /* MicroServices.swift */,
+				C34A807F2770D3F000300E80 /* Products */,
+				C34A814F2772BC8C00300E80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C34A807F2770D3F000300E80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C34A807E2770D3F000300E80 /* libiflink-stdims_coestation.a */,
+				DEC8624D2818666300C4D24D /* stdims_coestation.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C34A814F2772BC8C00300E80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BB66528190C8D00DE4200 /* libiflink-app.a */,
+				DE8E3E1A28179F8D00E280FA /* libiflink-ui.a */,
+				0F85EF1D2786E1D000D66A5A /* libiflink-imsif.a */,
+				DEDE50B0282F684C005595E4 /* libiflink-common.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE94DBCE28068A9700FE7824 /* IMS */ = {
+			isa = PBXGroup;
+			children = (
+				DE86C0C5282B8646007FBDA3 /* CoestationDevice.swift */,
+				DE86C0C6282B8646007FBDA3 /* CoestationIms.swift */,
+				DE86C0C8282B8646007FBDA3 /* CoestationImsConstants.swift */,
+				DE86C0C7282B8646007FBDA3 /* PrefCoestationImsViewController.swift */,
+			);
+			path = IMS;
+			sourceTree = "<group>";
+		};
+		DEFF058F281306DF00FCFDBA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A7FBE852872A237006131E0 /* CoestationIms.storyboard */,
+				DEFF05CD28130A5E00FCFDBA /* stdims_coestation.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C34A807D2770D3F000300E80 /* iflink-stdims_coestation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34A80852770D3F000300E80 /* Build configuration list for PBXNativeTarget "iflink-stdims_coestation" */;
+			buildPhases = (
+				C34A807A2770D3F000300E80 /* Sources */,
+				C34A807B2770D3F000300E80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iflink-stdims_coestation";
+			packageProductDependencies = (
+				DEC862312818626F00C4D24D /* ObjcExceptionBridging */,
+				DEC862332818626F00C4D24D /* XCGLogger */,
+				DEC862352818626F00C4D24D /* Collections */,
+				DEC862372818626F00C4D24D /* DequeModule */,
+				DEC862392818626F00C4D24D /* OrderedCollections */,
+				DEC8623B2818627000C4D24D /* PriorityQueueModule */,
+			);
+			productName = "iflink-stdims";
+			productReference = C34A807E2770D3F000300E80 /* libiflink-stdims_coestation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DEC8624C2818666300C4D24D /* stdims_coestation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC8624E2818666300C4D24D /* Build configuration list for PBXNativeTarget "stdims_coestation" */;
+			buildPhases = (
+				DEC8624A2818666300C4D24D /* Frameworks */,
+				DEC8624B2818666300C4D24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stdims_coestation;
+			productName = stdims_ibeacon;
+			productReference = DEC8624D2818666300C4D24D /* stdims_coestation.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34A80762770D3F000300E80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "TOSHIBA DIGITAL SOLUTIONS.";
+				TargetAttributes = {
+					C34A807D2770D3F000300E80 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					DEC8624C2818666300C4D24D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = C34A80792770D3F000300E80 /* Build configuration list for PBXProject "iflink-stdims_coestation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+				"zh-Hans",
+			);
+			mainGroup = C34A80752770D3F000300E80;
+			packageReferences = (
+				C34A81552772BD0100300E80 /* XCRemoteSwiftPackageReference "XCGLogger" */,
+				DEC861B32817CE3200C4D24D /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			productRefGroup = C34A807F2770D3F000300E80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C34A807D2770D3F000300E80 /* iflink-stdims_coestation */,
+				DEC8624C2818666300C4D24D /* stdims_coestation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEC8624B2818666300C4D24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8F36A3281959BE005FD71F /* Assets.xcassets in Resources */,
+				DE8BB67A2819260300DE4200 /* stdims_coestation.strings in Resources */,
+				2A7FBE862872A237006131E0 /* CoestationIms.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C34A807A2770D3F000300E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A721E072875C7F700E6EB1C /* PrefCoestationImsViewController.swift in Sources */,
+				2A721E062875C7EF00E6EB1C /* CoestationDevice.swift in Sources */,
+				2A721E052875C7E500E6EB1C /* CoestationImsConstants.swift in Sources */,
+				2A721E042875C7D600E6EB1C /* MicroServices.swift in Sources */,
+				2A721E032875C7C100E6EB1C /* CoestationIms.swift in Sources */,
+				2A721E022875C7A600E6EB1C /* Localization.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEFF05CD28130A5E00FCFDBA /* stdims_coestation.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEFF05CE28130A5E00FCFDBA /* en */,
+				DEFF05D428130A8600FCFDBA /* ja */,
+				2A721DFF2875C4D000E6EB1C /* zh-Hans */,
+			);
+			name = stdims_coestation.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C34A80832770D3F000300E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = mh_bundle;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = " jp.iflink.stdims_ibeacon";
+				PRODUCT_NAME = "iflink-stdims";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C34A80842770D3F000300E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = mh_bundle;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = " jp.iflink.stdims_ibeacon";
+				PRODUCT_NAME = "iflink-stdims";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C34A80862770D3F000300E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WRSV5L6S7;
+				ENABLE_BITCODE = YES;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C34A80872770D3F000300E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WRSV5L6S7;
+				ENABLE_BITCODE = YES;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEC8624F2818666300C4D24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRS8QCW2FR;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				INFOPLIST_FILE = "stdims_coestation-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 TOSHIBA DIGITAL SOLUTIONS. All rights reserved.";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACH_O_TYPE = mh_bundle;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.iflink.stdims_coestation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DEC862502818666300C4D24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRS8QCW2FR;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				INFOPLIST_FILE = "stdims_coestation-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 TOSHIBA DIGITAL SOLUTIONS. All rights reserved.";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACH_O_TYPE = mh_bundle;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.iflink.stdims_coestation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34A80792770D3F000300E80 /* Build configuration list for PBXProject "iflink-stdims_coestation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34A80832770D3F000300E80 /* Debug */,
+				C34A80842770D3F000300E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34A80852770D3F000300E80 /* Build configuration list for PBXNativeTarget "iflink-stdims_coestation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34A80862770D3F000300E80 /* Debug */,
+				C34A80872770D3F000300E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC8624E2818666300C4D24D /* Build configuration list for PBXNativeTarget "stdims_coestation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC8624F2818666300C4D24D /* Debug */,
+				DEC862502818666300C4D24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C34A81552772BD0100300E80 /* XCRemoteSwiftPackageReference "XCGLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DaveWoodCom/XCGLogger";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+		DEC861B32817CE3200C4D24D /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DEC862312818626F00C4D24D /* ObjcExceptionBridging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34A81552772BD0100300E80 /* XCRemoteSwiftPackageReference "XCGLogger" */;
+			productName = ObjcExceptionBridging;
+		};
+		DEC862332818626F00C4D24D /* XCGLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34A81552772BD0100300E80 /* XCRemoteSwiftPackageReference "XCGLogger" */;
+			productName = XCGLogger;
+		};
+		DEC862352818626F00C4D24D /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEC861B32817CE3200C4D24D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		DEC862372818626F00C4D24D /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEC861B32817CE3200C4D24D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		DEC862392818626F00C4D24D /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEC861B32817CE3200C4D24D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		DEC8623B2818627000C4D24D /* PriorityQueueModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEC861B32817CE3200C4D24D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = PriorityQueueModule;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C34A80762770D3F000300E80 /* Project object */;
+}

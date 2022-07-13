@@ -1,0 +1,18 @@
+/* 
+  stdims_coestation.strings
+  iflink-stdims_coestation
+
+  Created by 滑空モモンガ on 2022/06/22.
+  Copyright © 2022 TOSHIBA DIGITAL SOLUTIONS. All rights reserved.
+*/
+"config_name" = "コエステーション IMS設定";
+
+"pref_apikey_title" = "コエステーション API Key";
+"pref_apikey_summary" = "API Key";
+"pref_apikey_dialogTitle" = "コエステーションから発行されたAPIキーを入力してください。";
+
+"pref_logging_title" = "ログ出力";
+"pref_logging_summary" = "デバッグ用。ONにすると性能に影響します";
+
+// デフォルトのデバイス表示名
+"default_devicename_display" = "コエステーション";

@@ -1,0 +1,18 @@
+/* 
+  stdims_coestation.strings
+  iflink-stdims_coestation
+
+  Created by 滑空モモンガ on 2022/06/22.
+  Copyright © 2022 TOSHIBA DIGITAL SOLUTIONS. All rights reserved.
+*/
+"config_name" = "Coestation IMS 设置";
+
+"pref_apikey_title" = "Coestation API 密钥";
+"pref_apikey_summary" = "%d items";
+"pref_apikey_dialogTitle" = "进入 Coestation 访问 API KEY";
+
+"pref_logging_title" = "日志";
+"pref_logging_summary" = "用于调试.¥n如果启用日志，性能可能会受到影响.";
+
+// デフォルトのデバイス表示名
+"default_devicename_display" = "Coestation";
